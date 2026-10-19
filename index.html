@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en-MY" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>FiftyOne Solutions | IT Solutions &amp; Managed Services in Subang, Selangor</title>
+  <meta name="description" content="FiftyOne Solutions is a Subang-based IT solutions and managed services provider: networking, Microsoft 365, digital transformation, hardware procurement, managed IT support and security." />
+  <meta name="theme-color" content="#0b1018" />
+  <meta name="color-scheme" content="dark" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_MY" />
+  <meta property="og:site_name" content="FiftyOne Solutions" />
+  <meta property="og:title" content="FiftyOne Solutions | IT Solutions &amp; Managed Services" />
+  <meta property="og:description" content="Networks, Microsoft 365, procurement and managed IT support for Malaysian businesses, delivered by one accountable team in Subang." />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400..600&display=swap" />
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script>
+    document.documentElement.classList.replace("no-js", "js");
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "FiftyOne Solutions",
+    "legalName": "FiftyOne Technology Sdn. Bhd.",
+    "description": "IT solutions and managed services provider specialising in IT infrastructure, enterprise technology solutions, digital transformation, systems administration and technology procurement.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Subang",
+      "addressRegion": "Selangor",
+      "addressCountry": "MY"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Preloader: counts to 51, then lifts away -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <div class="loader__count"><span data-count>00</span></div>
+      <div class="loader__meta">
+        <span>FiftyOne Solutions</span>
+        <span class="loader__track"><span class="loader__fill"></span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll-reactive vector background (WebGL, see background.js) -->
+  <canvas id="bg" class="bg-canvas" aria-hidden="true"></canvas>
+  <div class="bg-shade" aria-hidden="true"></div>
+
+  <!-- Custom cursor (fine pointers only) -->
+  <div class="cursor" aria-hidden="true">
+    <div class="cursor__ring"><span></span></div>
+    <div class="cursor__dot"></div>
+  </div>
+
+  <header class="nav" data-nav>
+    <div class="nav__inner container">
+      <a class="brand" href="#top" aria-label="FiftyOne Solutions, back to top">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+          <rect x="1" y="1" width="30" height="30" rx="9" />
+          <path d="M16.5 8H9.5L8.8 15.2C9.9 14.3 11.2 13.9 12.6 13.9C15.4 13.9 17.2 15.8 17.2 18.6C17.2 21.5 15.2 23.5 12.3 23.5C10.2 23.5 8.6 22.5 7.9 20.8" />
+          <path d="M20.5 11L24 8V23.5" />
+        </svg>
+        <span class="brand__word">FiftyOne<span>Solutions</span></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#insight">Insight</a>
+        <a href="#approach">Approach</a>
+        <a href="#experience">Experience</a>
+        <a href="#partners">Partners</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--primary btn--sm" href="#contact" data-magnetic>
+          <span>Get in touch</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i>
+        </a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu" data-menu-toggle>
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav__progress" aria-hidden="true"><span data-progress></span></div>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav class="menu__links container" aria-label="Mobile">
+      <a href="#services">Services</a>
+      <a href="#insight">Insight</a>
+      <a href="#approach">Approach</a>
+      <a href="#experience">Experience</a>
+      <a href="#partners">Partners</a>
+      <a href="#contact">Get in touch</a>
+    </nav>
+  </div>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top" data-formation="globe" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <h1 class="display hero__title" id="hero-title">IT that keeps your business moving.</h1>
+        <div class="hero__foot">
+          <p class="hero__sub">Networks, Microsoft&nbsp;365, procurement and managed support for Malaysian businesses, delivered by one accountable team in Subang.</p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="#contact" data-magnetic>
+              <span>Get in touch</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <a class="btn btn--ghost" href="#services" data-magnetic>
+              <span>Explore services</span><i class="ph ph-arrow-down" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__cue" aria-hidden="true"><span class="hero__cue-line"></span><span>Scroll</span></div>
+    </section>
+
+    <!-- ============ STATEMENT ============ -->
+    <section class="statement" data-formation="vortex" aria-label="What we do">
+      <div class="statement__pin">
+        <div class="container">
+          <p class="statement__text">
+            We design, deploy and look after the technology your business runs on: <em>networks</em> that stay up, <em>cloud tools</em> your team actually uses, <em>devices</em> ready on day one, and <em>support</em> that picks up when you call.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES (horizontal pan on desktop) ============ -->
+    <section class="services" id="services" data-formation="terrain" aria-labelledby="services-title">
+      <div class="services__pin">
+        <div class="services__track">
+          <header class="services__intro">
+            <h2 class="h2" id="services-title" data-split>Seven disciplines. One accountable team.</h2>
+            <p class="lead">From the cabling in your ceiling to the licences in your tenant, every part of your IT can sit with one partner.</p>
+            <p class="services__hint" aria-hidden="true"><i class="ph ph-arrow-right"></i>Keep scrolling</p>
+          </header>
+
+          <article class="svc">
+            <span class="svc__ghost" aria-hidden="true">01</span>
+            <div class="svc__top"><span class="svc__num">01</span><i class="ph ph-network svc__icon" aria-hidden="true"></i></div>
+            <div class="svc__body">
+              <h3 class="svc__title">IT Infrastructure &amp; Networking</h3>
+              <p class="svc__desc">Design, deployment and management of wired and wireless business networks that stay fast and secure across every site.</p>
+              <ul class="svc__list">
+                <li>Enterprise Wi-Fi &amp; network optimisation</li>
+                <li>Routers, switches, gateways &amp; network security</li>
+                <li>VPN &amp; secure remote access</li>
+                <li>Multi-site connectivity</li>
+                <li>Monitoring, troubleshooting &amp; maintenance</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="svc">
+            <span class="svc__ghost" aria-hidden="true">02</span>
+            <div class="svc__top"><span class="svc__num">02</span><i class="ph ph-cloud svc__icon" aria-hidden="true"></i></div>
+            <div class="svc__body">
+              <h3 class="svc__title">Cloud &amp; Microsoft&nbsp;365</h3>
+              <p class="svc__desc">Deployment, administration and optimisation of Microsoft 365 and the cloud tools your team works in every day.</p>
+              <ul class="svc__list">
+                <li>Licensing &amp; tenant administration</li>
+                <li>Business email setup &amp; migration</li>
+                <li>SharePoint, OneDrive &amp; Teams</li>
+                <li>Identity &amp; access management</li>
+                <li>Cloud migration &amp; ongoing administration</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="svc">
+            <span class="svc__ghost" aria-hidden="true">03</span>
+            <div class="svc__top"><span class="svc__num">03</span><i class="ph ph-flow-arrow svc__icon" aria-hidden="true"></i></div>
+            <div class="svc__body">
+              <h3 class="svc__title">Digital Transformation &amp; Automation</h3>
+              <p class="svc__desc">Turning manual, paper-based processes into connected digital workflows, dashboards and reporting.</p>
+              <ul class="svc__list">
+                <li>Advisory &amp; technology roadmapping</li>
+                <li>Digitalising paper-based processes</li>
+                <li>Microsoft Power Platform solutions</li>
+                <li>Dashboards &amp; management information</li>
+                <li>Vendor selection &amp; implementation</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="svc">
+            <span class="svc__ghost" aria-hidden="true">04</span>
+            <div class="svc__top"><span class="svc__num">04</span><i class="ph ph-package svc__icon" aria-hidden="true"></i></div>
+            <div class="svc__body">
+              <h3 class="svc__title">Hardware &amp; Software Procurement</h3>
+              <p class="svc__desc">Sourcing business and enterprise technology through established distribution and technology partner networks.</p>
+              <ul class="svc__list">
+                <li>Laptops, desktops, workstations &amp; tablets</li>
+                <li>Servers, storage &amp; peripherals</li>
+                <li>Networking &amp; wireless equipment</li>
+                <li>Software licensing &amp; subscriptions</li>
+                <li>Lifecycle planning &amp; refresh programmes</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="svc">
+            <span class="svc__ghost" aria-hidden="true">05</span>
+            <div class="svc__top"><span class="svc__num">05</span><i class="ph ph-headset svc__icon" aria-hidden="true"></i></div>
+            <div class="svc__body">
+              <h3 class="svc__title">Managed IT Services &amp; Support</h3>
+              <p class="svc__desc">Ongoing administration and support, remote and on-site, that keeps your IT environment running reliably.</p>
+              <ul class="svc__list">
+                <li>Outsourced IT administration</li>
+                <li>Remote &amp; on-site assistance</li>
+                <li>Endpoint configuration &amp; device management</li>
+                <li>Preventive maintenance</li>
+                <li>IT asset &amp; lifecycle management</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="svc">
+            <span class="svc__ghost" aria-hidden="true">06</span>
+            <div class="svc__top"><span class="svc__num">06</span><i class="ph ph-shield-check svc__icon" aria-hidden="true"></i></div>
+            <div class="svc__body">
+              <h3 class="svc__title">IT Systems, Security &amp; Data Protection</h3>
+              <p class="svc__desc">Systems that protect your people, premises and data, from surveillance and storage to backup and endpoint security.</p>
+              <ul class="svc__list">
+                <li>IP CCTV &amp; network video recording</li>
+                <li>Network-attached storage (NAS)</li>
+                <li>Data backup &amp; recovery</li>
+                <li>Endpoint security &amp; device protection</li>
+                <li>Access controls &amp; user permissions</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="svc">
+            <span class="svc__ghost" aria-hidden="true">07</span>
+            <div class="svc__top"><span class="svc__num">07</span><i class="ph ph-compass svc__icon" aria-hidden="true"></i></div>
+            <div class="svc__body">
+              <h3 class="svc__title">IT Consultancy &amp; Project Management</h3>
+              <p class="svc__desc">Advice and project coordination to plan, acquire and deploy the right technology the first time.</p>
+              <ul class="svc__list">
+                <li>Requirements assessment &amp; planning</li>
+                <li>Technology evaluation &amp; recommendations</li>
+                <li>Vendor &amp; distributor coordination</li>
+                <li>Implementation oversight</li>
+                <li>Lifecycle &amp; infrastructure planning</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="services__hud" aria-hidden="true">
+          <span class="services__count"><span data-svc-current>01</span> / 07</span>
+          <span class="services__bar"><span data-svc-bar></span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INSIGHT (Bklit-style interactive data) ============ -->
+    <section class="insight" id="insight" data-formation="tunnel" aria-labelledby="insight-title">
+      <div class="container">
+        <header class="insight__head">
+          <h2 class="h2" id="insight-title" data-split>Your IT, visible at a glance.</h2>
+          <p class="lead">Monitoring and reporting turn your environment into something you can see, understand and act on. Hover the charts to explore.</p>
+          <span class="chip"><span class="chip__dot" aria-hidden="true"></span>Sample data, for illustration only</span>
+        </header>
+
+        <div class="bento">
+          <article class="cell cell--live">
+            <header class="cell__head">
+              <div>
+                <h3 class="cell__title">Network throughput</h3>
+                <p class="cell__sub">Head office uplink, Mbps</p>
+              </div>
+              <span class="live-tag"><span aria-hidden="true"></span>Live</span>
+            </header>
+            <div class="chart chart--live" data-chart="live" data-cursor="hide"></div>
+          </article>
+
+          <article class="cell cell--ring">
+            <header class="cell__head">
+              <div>
+                <h3 class="cell__title">Endpoint readiness</h3>
+                <p class="cell__sub">Share of managed devices</p>
+              </div>
+            </header>
+            <div class="ring-wrap">
+              <div class="chart chart--ring" data-chart="ring" data-cursor="hide"></div>
+              <ul class="legend legend--ring" data-ring-legend></ul>
+            </div>
+          </article>
+
+          <article class="cell cell--radar">
+            <header class="cell__head">
+              <div>
+                <h3 class="cell__title">IT maturity assessment</h3>
+                <p class="cell__sub">Scored 0 to 5 per area</p>
+              </div>
+              <div class="legend legend--toggle" data-radar-legend role="group" aria-label="Toggle series"></div>
+            </header>
+            <div class="chart chart--radar" data-chart="radar" data-cursor="hide"></div>
+          </article>
+
+          <article class="cell cell--area">
+            <header class="cell__head">
+              <div>
+                <h3 class="cell__title">Support requests</h3>
+                <p class="cell__sub">Opened and resolved per week</p>
+              </div>
+              <ul class="legend legend--static">
+                <li><span style="background: var(--chart-1)"></span>Resolved</li>
+                <li><span style="background: var(--chart-2)"></span>Opened</li>
+              </ul>
+            </header>
+            <div class="chart chart--area" data-chart="area" data-cursor="hide" tabindex="0" aria-label="Support requests chart. Use left and right arrow keys to inspect each week."></div>
+          </article>
+
+          <article class="cell cell--heat">
+            <header class="cell__head">
+              <div>
+                <h3 class="cell__title">Daily availability</h3>
+                <p class="cell__sub">Core network uptime, last <span data-heat-weeks>26</span> weeks. Average <strong data-heat-avg>99.9%</strong></p>
+              </div>
+              <div class="heat-legend" aria-hidden="true">
+                <span>Lower</span>
+                <i style="background: var(--chart-scale-01)"></i><i style="background: var(--chart-scale-02)"></i><i style="background: var(--chart-scale-03)"></i><i style="background: var(--chart-scale-04)"></i><i style="background: var(--chart-scale-05)"></i>
+                <span>Higher</span>
+              </div>
+            </header>
+            <div class="chart chart--heat" data-chart="heatmap" data-cursor="hide"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPROACH (sticky card stack) ============ -->
+    <section class="process" id="approach" data-formation="helix" aria-labelledby="approach-title">
+      <div class="container">
+        <h2 class="h2 process__title" id="approach-title" data-split>From first assessment to everyday support.</h2>
+
+        <div class="steps">
+          <article class="step" style="--i: 0">
+            <div class="step__inner">
+              <span class="step__num">01</span>
+              <div class="step__body">
+                <h3 class="step__title">Assess</h3>
+                <p>We review your current setup, pain points and business goals, then document what you have and what you need.</p>
+              </div>
+              <i class="ph ph-magnifying-glass step__icon" aria-hidden="true"></i>
+            </div>
+          </article>
+          <article class="step" style="--i: 1">
+            <div class="step__inner">
+              <span class="step__num">02</span>
+              <div class="step__body">
+                <h3 class="step__title">Plan</h3>
+                <p>A clear recommendation and roadmap, with options and costs you can compare in plain language.</p>
+              </div>
+              <i class="ph ph-map-trifold step__icon" aria-hidden="true"></i>
+            </div>
+          </article>
+          <article class="step" style="--i: 2">
+            <div class="step__inner">
+              <span class="step__num">03</span>
+              <div class="step__body">
+                <h3 class="step__title">Procure</h3>
+                <p>We source hardware and licences through our distribution and partner networks, and coordinate fulfilment end to end.</p>
+              </div>
+              <i class="ph ph-package step__icon" aria-hidden="true"></i>
+            </div>
+          </article>
+          <article class="step" style="--i: 3">
+            <div class="step__inner">
+              <span class="step__num">04</span>
+              <div class="step__body">
+                <h3 class="step__title">Deploy</h3>
+                <p>Configuration, installation and migration, scheduled around your operations to keep disruption low.</p>
+              </div>
+              <i class="ph ph-rocket-launch step__icon" aria-hidden="true"></i>
+            </div>
+          </article>
+          <article class="step" style="--i: 4">
+            <div class="step__inner">
+              <span class="step__num">05</span>
+              <div class="step__body">
+                <h3 class="step__title">Manage</h3>
+                <p>Ongoing monitoring, maintenance and support, with one team accountable for keeping it all running.</p>
+              </div>
+              <i class="ph ph-arrows-clockwise step__icon" aria-hidden="true"></i>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="experience" id="experience" data-formation="torus" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="experience__head">
+          <h2 class="h2" id="experience-title" data-split>Where we've delivered.</h2>
+          <p class="lead">Project and service experience across six areas of business IT. Select an area to see what's involved.</p>
+        </div>
+
+        <ol class="xp">
+          <li class="xp__row">
+            <span class="xp__rule" aria-hidden="true"></span>
+            <button class="xp__btn" type="button" aria-expanded="false" aria-controls="xp-1">
+              <span class="xp__num">01</span>
+              <span class="xp__name">Enterprise networking &amp; connectivity</span>
+              <span class="xp__tags">Wi-Fi, switching, VPN</span>
+              <span class="xp__plus" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div class="xp__panel" id="xp-1" hidden>
+              <p>Deployment and administration of business network infrastructure, including enterprise wireless access points, managed switches, gateways, secure VPN connectivity and multi-site network configurations.</p>
+            </div>
+          </li>
+          <li class="xp__row">
+            <span class="xp__rule" aria-hidden="true"></span>
+            <button class="xp__btn" type="button" aria-expanded="false" aria-controls="xp-2">
+              <span class="xp__num">02</span>
+              <span class="xp__name">Cloud productivity &amp; IT administration</span>
+              <span class="xp__tags">Microsoft 365, email, Teams</span>
+              <span class="xp__plus" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div class="xp__panel" id="xp-2" hidden>
+              <p>Microsoft 365 tenant administration, business email management, user provisioning, cloud storage, collaboration platforms and ongoing IT support for business users.</p>
+            </div>
+          </li>
+          <li class="xp__row">
+            <span class="xp__rule" aria-hidden="true"></span>
+            <button class="xp__btn" type="button" aria-expanded="false" aria-controls="xp-3">
+              <span class="xp__num">03</span>
+              <span class="xp__name">Infrastructure &amp; systems deployment</span>
+              <span class="xp__tags">NAS, CCTV, endpoints</span>
+              <span class="xp__plus" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div class="xp__panel" id="xp-3" hidden>
+              <p>Configuration and management of business IT equipment, network storage, CCTV surveillance systems, endpoint devices and the infrastructure around them.</p>
+            </div>
+          </li>
+          <li class="xp__row">
+            <span class="xp__rule" aria-hidden="true"></span>
+            <button class="xp__btn" type="button" aria-expanded="false" aria-controls="xp-4">
+              <span class="xp__num">04</span>
+              <span class="xp__name">Hardware provisioning &amp; device lifecycle</span>
+              <span class="xp__tags">Procurement, leasing</span>
+              <span class="xp__plus" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div class="xp__panel" id="xp-4" hidden>
+              <p>Procurement, configuration, deployment and leasing of business computing equipment, supported by ongoing technical assistance and device management.</p>
+            </div>
+          </li>
+          <li class="xp__row">
+            <span class="xp__rule" aria-hidden="true"></span>
+            <button class="xp__btn" type="button" aria-expanded="false" aria-controls="xp-5">
+              <span class="xp__num">05</span>
+              <span class="xp__name">Digital workplace &amp; operations</span>
+              <span class="xp__tags">Collaboration, workflows</span>
+              <span class="xp__plus" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div class="xp__panel" id="xp-5" hidden>
+              <p>Helping businesses adopt cloud-based collaboration, centralised information management and more efficient digital workflows that improve day-to-day operations.</p>
+            </div>
+          </li>
+          <li class="xp__row">
+            <span class="xp__rule" aria-hidden="true"></span>
+            <button class="xp__btn" type="button" aria-expanded="false" aria-controls="xp-6">
+              <span class="xp__num">06</span>
+              <span class="xp__name">Managed IT support</span>
+              <span class="xp__tags">Helpdesk, maintenance</span>
+              <span class="xp__plus" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div class="xp__panel" id="xp-6" hidden>
+              <p>Ongoing technical support and IT administration covering user assistance, infrastructure troubleshooting, system maintenance and technology management.</p>
+            </div>
+          </li>
+        </ol>
+
+        <!--
+          ADD REAL PROOF HERE when the client has it (testimonials, client logos, case studies).
+          A styled testimonial block is ready to use. Uncomment and replace the text:
+
+          <figure class="quote">
+            <blockquote>“Short, real quote from a client. Keep it under three lines.”</blockquote>
+            <figcaption><strong>Client Name</strong>, Role, Company</figcaption>
+          </figure>
+        -->
+      </div>
+    </section>
+
+    <!-- ============ PARTNERS ============ -->
+    <section class="partners" id="partners" data-formation="clusters" aria-labelledby="partners-title">
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span>Enterprise Wi-Fi</span><span class="is-outline">Managed switching</span><span>Secure VPN</span><span class="is-outline">Microsoft 365</span><span>SharePoint &amp; Teams</span><span class="is-outline">Power Platform</span><span>IP CCTV</span><span class="is-outline">NAS storage</span><span>Backup &amp; recovery</span><span class="is-outline">Endpoint security</span><span>Procurement</span>
+          </div>
+          <div class="marquee__group">
+            <span>Enterprise Wi-Fi</span><span class="is-outline">Managed switching</span><span>Secure VPN</span><span class="is-outline">Microsoft 365</span><span>SharePoint &amp; Teams</span><span class="is-outline">Power Platform</span><span>IP CCTV</span><span class="is-outline">NAS storage</span><span>Backup &amp; recovery</span><span class="is-outline">Endpoint security</span><span>Procurement</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container partners__grid">
+        <div class="partners__copy">
+          <h2 class="h2" id="partners-title" data-split>Enterprise reach, partner-led delivery.</h2>
+          <p class="lead">For larger and specialised requirements, we work with distributors, technology vendors and specialist implementation partners, coordinating procurement, delivery and support under one plan.</p>
+          <ul class="ticks">
+            <li><i class="ph ph-check" aria-hidden="true"></i>Enterprise hardware procurement</li>
+            <li><i class="ph ph-check" aria-hidden="true"></i>Software licensing</li>
+            <li><i class="ph ph-check" aria-hidden="true"></i>Systems integration</li>
+            <li><i class="ph ph-check" aria-hidden="true"></i>Large-scale technology deployment</li>
+          </ul>
+        </div>
+
+        <div class="hub" role="img" aria-label="Diagram: FiftyOne Solutions sits between your business and its distributors, technology vendors and implementation partners.">
+          <svg class="hub__svg" viewBox="0 0 560 460" aria-hidden="true">
+            <circle class="hub__orbit" cx="300" cy="230" r="150" />
+            <circle class="hub__orbit hub__orbit--inner" cx="300" cy="230" r="86" />
+            <path class="hub__path" pathLength="1" d="M300 230 C 220 230, 160 230, 70 230" />
+            <path class="hub__path" pathLength="1" d="M300 230 C 360 170, 410 110, 470 78" />
+            <path class="hub__path" pathLength="1" d="M300 230 C 380 230, 440 230, 508 230" />
+            <path class="hub__path" pathLength="1" d="M300 230 C 360 290, 410 350, 470 382" />
+            <g class="hub__packets"></g>
+          </svg>
+          <span class="hub__node hub__node--core" style="--x: 53.6%; --y: 50%">FiftyOne</span>
+          <span class="hub__node" style="--x: 12.5%; --y: 50%">Your business</span>
+          <span class="hub__node" style="--x: 83.9%; --y: 17%">Distributors</span>
+          <span class="hub__node" style="--x: 88%; --y: 50%">Technology vendors</span>
+          <span class="hub__node" style="--x: 83.9%; --y: 83%">Implementation partners</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" data-formation="mark" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="display contact__title" id="contact-title" data-split>Let's simplify your IT.</h2>
+
+        <div class="contact__grid">
+          <div class="contact__intro">
+            <p class="lead">Technology should simplify operations, improve productivity and support sustainable growth. Tell us what you're working with and we'll come back with practical next steps.</p>
+            <!-- REPLACE: the client's real email, phone number and address -->
+            <ul class="contact__details">
+              <li><i class="ph ph-envelope-simple" aria-hidden="true"></i><a href="mailto:hello@example.com">hello@example.com</a></li>
+              <li><i class="ph ph-phone" aria-hidden="true"></i><a href="tel:+60300000000">+60 3-0000 0000</a></li>
+              <li><i class="ph ph-map-pin" aria-hidden="true"></i><span>Subang, Selangor, Malaysia</span></li>
+            </ul>
+          </div>
+
+          <!-- REPLACE data-email with the inbox that should receive enquiries -->
+          <form class="form" data-contact-form data-email="hello@example.com" novalidate>
+            <div class="form__row">
+              <div class="field">
+                <label for="f-name">Name</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="f-name-err" />
+                <p class="field__error" id="f-name-err"></p>
+              </div>
+              <div class="field">
+                <label for="f-company">Company <span class="field__opt">(optional)</span></label>
+                <input id="f-company" name="company" type="text" autocomplete="organization" />
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="field">
+                <label for="f-email">Work email</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="f-email-err" />
+                <p class="field__error" id="f-email-err"></p>
+              </div>
+              <div class="field">
+                <label for="f-phone">Phone <span class="field__opt">(optional)</span></label>
+                <input id="f-phone" name="phone" type="tel" autocomplete="tel" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-interest">What do you need help with?</label>
+              <select id="f-interest" name="interest">
+                <option>Not sure yet</option>
+                <option>IT infrastructure &amp; networking</option>
+                <option>Cloud &amp; Microsoft 365</option>
+                <option>Digital transformation &amp; automation</option>
+                <option>Hardware &amp; software procurement</option>
+                <option>Managed IT services &amp; support</option>
+                <option>IT systems, security &amp; data protection</option>
+                <option>IT consultancy &amp; project management</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-message">Message</label>
+              <textarea id="f-message" name="message" rows="5" required aria-describedby="f-message-err"></textarea>
+              <p class="field__error" id="f-message-err"></p>
+            </div>
+            <div class="form__foot">
+              <button class="btn btn--primary" type="submit" data-magnetic>
+                <span>Send enquiry</span><i class="ph ph-paper-plane-tilt" aria-hidden="true"></i>
+              </button>
+              <p class="form__status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__cols">
+        <div class="footer__brand">
+          <p class="footer__legal-name">FiftyOne Technology Sdn.&nbsp;Bhd.</p>
+          <p>Trading as FiftyOne Solutions</p>
+          <p>Company No. 202601022731 (1684828-D)</p>
+          <p>Subang, Selangor, Malaysia</p>
+        </div>
+        <nav class="footer__nav" aria-label="Footer">
+          <a href="#services">Services</a>
+          <a href="#insight">Insight</a>
+          <a href="#approach">Approach</a>
+          <a href="#experience">Experience</a>
+          <a href="#partners">Partners</a>
+          <a href="#contact">Get in touch</a>
+        </nav>
+        <button class="to-top" type="button" data-to-top data-magnetic>
+          <i class="ph ph-arrow-up" aria-hidden="true"></i><span>Back to top</span>
+        </button>
+      </div>
+      <p class="footer__copy">&copy; <span data-year>2026</span> FiftyOne Technology Sdn. Bhd. All rights reserved.</p>
+    </div>
+    <div class="footer__mark" aria-hidden="true">
+      <span>F</span><span>i</span><span>f</span><span>t</span><span>y</span><span>O</span><span>n</span><span>e</span>
+    </div>
+  </footer>
+
+  <!-- Motion libraries (pinned versions) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+  <script defer src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
